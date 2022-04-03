@@ -8,5 +8,5 @@
   - the image must have `nodejs` installed
 
 ## run the image as a container
-- docker run -p 3000:3000 kw2mo/hello-world
-  - replace kw2mo with your student id
+- docker run -d -p 3000:3000 kw2mo/hello-world
+  - replace kw2mo/hello-world with your student id and image name
